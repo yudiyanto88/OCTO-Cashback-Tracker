@@ -2,8 +2,8 @@ name: Check OCTO Transactions
 
 on:
   schedule:
-    # Runs every 30 minutes
-    - cron: '*/30 * * * *'
+    # Runs daily at 22:00 WIB (15:00 UTC)
+    - cron: '0 15 * * *'
   workflow_dispatch:   # allow manual trigger from Actions tab
 
 jobs:
