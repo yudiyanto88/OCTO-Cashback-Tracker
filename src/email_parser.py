@@ -73,12 +73,40 @@ def _get_body(msg) -> tuple[str, str]:
 def _fields_from_html(html: str) -> dict[str, str]:
     """
     Extract key-value fields from the CIMB HTML email body.
-    Primary strategy: 2-cell <tr> rows (label | value).
-    Fallback: colon-separated lines in the extracted text.
+
+    CIMB uses alternating single-cell rows:
+      <tr><td class="text-paramname">Label:</td></tr>
+      <tr><td class="text-paramvalue">Value</td></tr>
+
+    Fallback: 2-cell <tr> rows (label | value), then plain-text colon lines.
     """
     soup = BeautifulSoup(html, "html.parser")
     fields: dict[str, str] = {}
 
+    # Primary: paramname / paramvalue alternating rows
+    label_cells = soup.find_all("td", class_="text-paramname")
+    for label_td in label_cells:
+        key = label_td.get_text(separator=" ", strip=True).rstrip(":").strip()
+        if not key:
+            continue
+        # Value is in the next <tr>'s <td>
+        label_tr = label_td.find_parent("tr")
+        if label_tr is None:
+            continue
+        value_tr = label_tr.find_next_sibling("tr")
+        if value_tr is None:
+            continue
+        value_td = value_tr.find("td", class_="text-paramvalue")
+        if value_td is None:
+            continue
+        value = value_td.get_text(separator=" ", strip=True)
+        if value:
+            fields[key] = value
+
+    if fields:
+        return fields
+
+    # Fallback 1: 2-cell <tr> rows
     for row in soup.find_all("tr"):
         cells = row.find_all(["td", "th"])
         if len(cells) >= 2:
@@ -90,7 +118,7 @@ def _fields_from_html(html: str) -> dict[str, str]:
     if fields:
         return fields
 
-    # Fallback: parse text content of the whole email
+    # Fallback 2: colon-separated lines in plain text
     return _fields_from_text(soup.get_text(separator="\n"))
 
 
