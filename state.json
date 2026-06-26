@@ -4,13 +4,14 @@
     "001251210581",
     "QRS_706667",
     "QRS_619024",
-    "QRS_615475"
+    "QRS_615475",
+    "001252980464"
   ],
   "periods": {
     "Jul 2026": {
-      "cashback_total": 14100.0,
-      "transaction_count": 5,
-      "total_amount": 141000.0,
+      "cashback_total": 16600.0,
+      "transaction_count": 6,
+      "total_amount": 166000.0,
       "transactions": [
         {
           "id": "001249780216",
@@ -56,9 +57,18 @@
           "purchase_type": "Purchase with QR",
           "cashback": 2500.0,
           "period": "Jul 2026"
+        },
+        {
+          "id": "001252980464",
+          "date": "2026-06-26T18:55:00",
+          "merchant": "SQUARE 8 PKC",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Jul 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-06-26T10:35:32.727623"
+  "last_updated": "2026-06-26T16:59:18.449859"
 }
