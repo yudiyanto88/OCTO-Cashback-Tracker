@@ -1,5 +1,64 @@
 {
-  "processed_transaction_ids": [],
-  "periods": {},
-  "last_updated": null
+  "processed_transaction_ids": [
+    "001249780216",
+    "001251210581",
+    "QRS_706667",
+    "QRS_619024",
+    "QRS_615475"
+  ],
+  "periods": {
+    "Jul 2026": {
+      "cashback_total": 14100.0,
+      "transaction_count": 5,
+      "total_amount": 141000.0,
+      "transactions": [
+        {
+          "id": "001249780216",
+          "date": "2026-06-25T06:30:00",
+          "merchant": "Kantin Kak Yanti",
+          "amount": 15000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1500.0,
+          "period": "Jul 2026"
+        },
+        {
+          "id": "001251210581",
+          "date": "2026-06-25T19:45:00",
+          "merchant": "W.M ROJO LELE PKC",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Jul 2026"
+        },
+        {
+          "id": "QRS_706667",
+          "date": "2026-06-20T01:00:00",
+          "merchant": "RM INGANTA JUM OM",
+          "amount": 63000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 6300.0,
+          "period": "Jul 2026"
+        },
+        {
+          "id": "QRS_619024",
+          "date": "2026-06-21T01:00:00",
+          "merchant": "KELAPA SEGAR R OM",
+          "amount": 13000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1300.0,
+          "period": "Jul 2026"
+        },
+        {
+          "id": "QRS_615475",
+          "date": "2026-06-21T01:00:00",
+          "merchant": "RM MINANG RAYA OM",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Jul 2026"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-06-26T17:28:04.757520"
 }
