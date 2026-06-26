@@ -8,6 +8,10 @@ import logging
 import os
 import sys
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from src.cashback_calculator import (
     PERIOD_CAP,
     calculate_cashback,
