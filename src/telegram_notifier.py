@@ -1,6 +1,5 @@
 import html
 import logging
-import math
 
 import requests
 
@@ -53,7 +52,7 @@ def build_message(
     sisa = max(0.0, PERIOD_CAP - period_total)
 
     lines = [
-        "🧾 <b>Transaksi Baru — OCTO Card</b>",
+        "🐙 <b>Transaksi Baru — OCTO Card</b>",
         "",
         f"Merchant : {_esc(merchant)}",
         f"Nominal  : {_fmt_rp(amount)}",
@@ -68,14 +67,10 @@ def build_message(
             "",
             "🎉 Cashback bulan ini sudah maksimal. Pakai kartu lain untuk transaksi berikutnya.",
         ]
-    elif txn_count > 0 and sisa > 0:
-        avg_cashback = period_total / txn_count
-        if avg_cashback > 0:
-            txns_needed = math.ceil(sisa / avg_cashback)
-            avg_amount = total_amount / txn_count
-            avg_rounded = round(avg_amount / 1_000) * 1_000
-            estimasi = f"~{txns_needed} transaksi {_fmt_rp_short(avg_rounded)} lagi untuk maksimal"
-            lines.append(f"Estimasi          : {estimasi}")
+    elif sisa > 0 and period_total > 0 and total_amount > 0:
+        effective_rate = period_total / total_amount
+        spending_needed = sisa / effective_rate
+        lines.append(f"Perlu belanja     : {_fmt_rp(spending_needed)} lagi untuk cap penuh")
 
     return "\n".join(lines)
 
