@@ -1,0 +1,13 @@
+# Billing statements - sensitive financial data
+*.jpeg
+*.jpg
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Credentials
+credentials.json
+token.json
