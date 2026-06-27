@@ -5,13 +5,14 @@
     "QRS_706667",
     "QRS_619024",
     "QRS_615475",
-    "001252980464"
+    "001252980464",
+    "001253941397"
   ],
   "periods": {
     "Jul 2026": {
-      "cashback_total": 16600.0,
-      "transaction_count": 6,
-      "total_amount": 166000.0,
+      "cashback_total": 20600.0,
+      "transaction_count": 7,
+      "total_amount": 206000.0,
       "transactions": [
         {
           "id": "001249780216",
@@ -66,9 +67,18 @@
           "purchase_type": "Purchase with QR",
           "cashback": 2500.0,
           "period": "Jul 2026"
+        },
+        {
+          "id": "001253941397",
+          "date": "2026-06-27T11:38:00",
+          "merchant": "Rm Aching 88 medan",
+          "amount": 40000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 4000.0,
+          "period": "Jul 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-06-26T16:59:18.449859"
+  "last_updated": "2026-06-27T16:03:00.604645"
 }
