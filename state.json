@@ -9,13 +9,14 @@
     "001253941397",
     "001255622320",
     "001255634686",
-    "001256773507"
+    "001256773507",
+    "001265093527"
   ],
   "periods": {
     "Jul 2026": {
-      "cashback_total": 26000.0,
-      "transaction_count": 10,
-      "total_amount": 260000.0,
+      "cashback_total": 27500.0,
+      "transaction_count": 11,
+      "total_amount": 275000.0,
       "transactions": [
         {
           "id": "001249780216",
@@ -106,9 +107,18 @@
           "purchase_type": "Purchase with QR",
           "cashback": 1500.0,
           "period": "Jul 2026"
+        },
+        {
+          "id": "001265093527",
+          "date": "2026-07-03T06:36:00",
+          "merchant": "Kantin Kak Yanti",
+          "amount": 15000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1500.0,
+          "period": "Jul 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-07-02T16:47:51.549495"
+  "last_updated": "2026-07-03T16:23:05.594020"
 }
