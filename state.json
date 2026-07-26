@@ -10,7 +10,8 @@
     "001255622320",
     "001255634686",
     "001256773507",
-    "001265093527"
+    "001265093527",
+    "001302077311"
   ],
   "periods": {
     "Jul 2026": {
@@ -118,7 +119,23 @@
           "period": "Jul 2026"
         }
       ]
+    },
+    "Aug 2026": {
+      "cashback_total": 10000.0,
+      "transaction_count": 1,
+      "total_amount": 150000.0,
+      "transactions": [
+        {
+          "id": "001302077311",
+          "date": "2026-07-26T12:59:00",
+          "merchant": "Nasi Kebuli Ayam Golek",
+          "amount": 150000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 10000,
+          "period": "Aug 2026"
+        }
+      ]
     }
   },
-  "last_updated": "2026-07-25T16:02:25.155605"
+  "last_updated": "2026-07-26T15:59:17.063732"
 }
