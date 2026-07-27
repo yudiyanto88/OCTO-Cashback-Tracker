@@ -11,7 +11,9 @@
     "001255634686",
     "001256773507",
     "001265093527",
-    "001302077311"
+    "001302077311",
+    "001303487924",
+    "001304585262"
   ],
   "periods": {
     "Jul 2026": {
@@ -121,9 +123,9 @@
       ]
     },
     "Aug 2026": {
-      "cashback_total": 10000.0,
-      "transaction_count": 1,
-      "total_amount": 150000.0,
+      "cashback_total": 21100.0,
+      "transaction_count": 3,
+      "total_amount": 471691.0,
       "transactions": [
         {
           "id": "001302077311",
@@ -133,9 +135,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 10000,
           "period": "Aug 2026"
+        },
+        {
+          "id": "001303487924",
+          "date": "2026-07-27T11:19:00",
+          "merchant": "TOKO BUKU HAYKAL",
+          "amount": 11000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1100.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001304585262",
+          "date": "2026-07-27T23:20:00",
+          "merchant": "YAPP CREATOR NETWORK - QR",
+          "amount": 310691.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 10000,
+          "period": "Aug 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-07-26T15:59:17.063732"
+  "last_updated": "2026-07-27T16:55:29.640045"
 }
