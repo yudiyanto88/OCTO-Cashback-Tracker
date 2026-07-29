@@ -13,7 +13,10 @@
     "001265093527",
     "001302077311",
     "001303487924",
-    "001304585262"
+    "001304585262",
+    "001306988323",
+    "001307799600",
+    "001307810661"
   ],
   "periods": {
     "Jul 2026": {
@@ -123,9 +126,9 @@
       ]
     },
     "Aug 2026": {
-      "cashback_total": 21100.0,
-      "transaction_count": 3,
-      "total_amount": 471691.0,
+      "cashback_total": 24850.0,
+      "transaction_count": 6,
+      "total_amount": 509191.0,
       "transactions": [
         {
           "id": "001302077311",
@@ -153,9 +156,36 @@
           "purchase_type": "Purchase with QR",
           "cashback": 10000,
           "period": "Aug 2026"
+        },
+        {
+          "id": "001306988323",
+          "date": "2026-07-29T12:04:00",
+          "merchant": "Kantin Gelora Sate",
+          "amount": 4000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 400.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001307799600",
+          "date": "2026-07-29T20:16:00",
+          "merchant": "Kantin Gelora Sate",
+          "amount": 22000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2200.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001307810661",
+          "date": "2026-07-29T20:22:00",
+          "merchant": "CSU RAPP",
+          "amount": 11500.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1150.0,
+          "period": "Aug 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-07-28T16:38:32.525424"
+  "last_updated": "2026-07-29T16:19:19.600516"
 }
