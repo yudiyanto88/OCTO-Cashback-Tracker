@@ -16,7 +16,9 @@
     "001304585262",
     "001306988323",
     "001307799600",
-    "001307810661"
+    "001307810661",
+    "001309153980",
+    "001309322344"
   ],
   "periods": {
     "Jul 2026": {
@@ -126,9 +128,9 @@
       ]
     },
     "Aug 2026": {
-      "cashback_total": 24850.0,
-      "transaction_count": 6,
-      "total_amount": 509191.0,
+      "cashback_total": 26350.0,
+      "transaction_count": 8,
+      "total_amount": 524191.0,
       "transactions": [
         {
           "id": "001302077311",
@@ -183,9 +185,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 1150.0,
           "period": "Aug 2026"
+        },
+        {
+          "id": "001309153980",
+          "date": "2026-07-30T17:15:00",
+          "merchant": "DAPOER MAK TOM",
+          "amount": 10000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1000.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001309322344",
+          "date": "2026-07-30T18:47:00",
+          "merchant": "DAPOER MAK TOM",
+          "amount": 5000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 500.0,
+          "period": "Aug 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-07-29T16:19:19.600516"
+  "last_updated": "2026-07-30T16:24:33.642724"
 }
