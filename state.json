@@ -18,7 +18,9 @@
     "001307799600",
     "001307810661",
     "001309153980",
-    "001309322344"
+    "001309322344",
+    "001313308945",
+    "001314032880"
   ],
   "periods": {
     "Jul 2026": {
@@ -128,9 +130,9 @@
       ]
     },
     "Aug 2026": {
-      "cashback_total": 26350.0,
-      "transaction_count": 8,
-      "total_amount": 524191.0,
+      "cashback_total": 34950.0,
+      "transaction_count": 10,
+      "total_amount": 610191.0,
       "transactions": [
         {
           "id": "001302077311",
@@ -203,9 +205,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 500.0,
           "period": "Aug 2026"
+        },
+        {
+          "id": "001313308945",
+          "date": "2026-08-01T14:51:00",
+          "merchant": "PHOTOISM PKU",
+          "amount": 60000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 6000.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001314032880",
+          "date": "2026-08-01T20:11:00",
+          "merchant": "PECEL LELE PUJAKESUMA",
+          "amount": 26000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2600.0,
+          "period": "Aug 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-07-31T16:43:03.100642"
+  "last_updated": "2026-08-01T15:58:25.824736"
 }
