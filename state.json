@@ -20,7 +20,12 @@
     "001309153980",
     "001309322344",
     "001313308945",
-    "001314032880"
+    "001314032880",
+    "001318798360",
+    "001318814765",
+    "001319585834",
+    "001319610955",
+    "001319625632"
   ],
   "periods": {
     "Jul 2026": {
@@ -130,9 +135,9 @@
       ]
     },
     "Aug 2026": {
-      "cashback_total": 34950.0,
-      "transaction_count": 10,
-      "total_amount": 610191.0,
+      "cashback_total": 40850.0,
+      "transaction_count": 15,
+      "total_amount": 669191.0,
       "transactions": [
         {
           "id": "001302077311",
@@ -223,9 +228,54 @@
           "purchase_type": "Purchase with QR",
           "cashback": 2600.0,
           "period": "Aug 2026"
+        },
+        {
+          "id": "001318798360",
+          "date": "2026-08-04T12:15:00",
+          "merchant": "CSU RAPP",
+          "amount": 6000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 600.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001318814765",
+          "date": "2026-08-04T12:22:00",
+          "merchant": "CSU RAPP",
+          "amount": 6000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 600.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001319585834",
+          "date": "2026-08-04T19:40:00",
+          "merchant": "PISANGGORENG WIJEN SHANUM",
+          "amount": 10000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1000.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001319610955",
+          "date": "2026-08-04T19:53:00",
+          "merchant": "SATE MADURA CAK KUMIS",
+          "amount": 20000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2000.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001319625632",
+          "date": "2026-08-04T20:01:00",
+          "merchant": "UBI BAKAR CILEMBU PKC",
+          "amount": 17000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1700.0,
+          "period": "Aug 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-03T17:06:51.922699"
+  "last_updated": "2026-08-04T16:49:29.079658"
 }
