@@ -30,7 +30,11 @@
     "001321515111",
     "001322203496",
     "001323324459",
-    "001324185931"
+    "001324185931",
+    "001327430251",
+    "001327449934",
+    "001328309823",
+    "001328320440"
   ],
   "periods": {
     "Jul 2026": {
@@ -140,9 +144,9 @@
       ]
     },
     "Aug 2026": {
-      "cashback_total": 67050.0,
-      "transaction_count": 20,
-      "total_amount": 1085391.0,
+      "cashback_total": 76650.0,
+      "transaction_count": 24,
+      "total_amount": 1181391.0,
       "transactions": [
         {
           "id": "001302077311",
@@ -323,9 +327,45 @@
           "purchase_type": "Purchase with QR",
           "cashback": 10000,
           "period": "Aug 2026"
+        },
+        {
+          "id": "001327430251",
+          "date": "2026-08-09T10:32:00",
+          "merchant": "UBI BAKAR CILEMBU PKC",
+          "amount": 31500.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 3150.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001327449934",
+          "date": "2026-08-09T10:46:00",
+          "merchant": "CSU RAPP",
+          "amount": 27500.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2750.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001328309823",
+          "date": "2026-08-09T19:53:00",
+          "merchant": "Bastanta Buah",
+          "amount": 12000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1200.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001328320440",
+          "date": "2026-08-09T19:59:00",
+          "merchant": "W.M ROJO LELE PKC",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Aug 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-08T15:26:32.728369"
+  "last_updated": "2026-08-09T15:28:05.630800"
 }
