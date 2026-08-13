@@ -38,7 +38,9 @@
     "001329200668",
     "001330007883",
     "001333098147",
-    "001333106808"
+    "001333106808",
+    "001334619776",
+    "001334693864"
   ],
   "periods": {
     "Jul 2026": {
@@ -148,9 +150,9 @@
       ]
     },
     "Aug 2026": {
-      "cashback_total": 82700.0,
-      "transaction_count": 28,
-      "total_amount": 1241891.0,
+      "cashback_total": 91200.0,
+      "transaction_count": 30,
+      "total_amount": 1326891.0,
       "transactions": [
         {
           "id": "001302077311",
@@ -403,9 +405,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 1200.0,
           "period": "Aug 2026"
+        },
+        {
+          "id": "001334619776",
+          "date": "2026-08-13T19:58:00",
+          "merchant": "UNITY CAFE",
+          "amount": 75000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 7500.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001334693864",
+          "date": "2026-08-13T20:45:00",
+          "merchant": "UNITY CAFE",
+          "amount": 10000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1000.0,
+          "period": "Aug 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-12T15:56:38.622243"
+  "last_updated": "2026-08-13T15:56:39.467772"
 }
