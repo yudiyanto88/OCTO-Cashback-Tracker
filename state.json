@@ -41,7 +41,10 @@
     "001333106808",
     "001334619776",
     "001334693864",
-    "001335002397"
+    "001335002397",
+    "001337031292",
+    "001337037499",
+    "001337838203"
   ],
   "periods": {
     "Jul 2026": {
@@ -151,9 +154,9 @@
       ]
     },
     "Aug 2026": {
-      "cashback_total": 94200.0,
-      "transaction_count": 31,
-      "total_amount": 1356891.0,
+      "cashback_total": 100000.0,
+      "transaction_count": 34,
+      "total_amount": 1437891.0,
       "transactions": [
         {
           "id": "001302077311",
@@ -433,9 +436,36 @@
           "purchase_type": "Purchase with QR",
           "cashback": 3000.0,
           "period": "Aug 2026"
+        },
+        {
+          "id": "001337031292",
+          "date": "2026-08-15T11:42:00",
+          "merchant": "RM MINANG RAYA",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001337037499",
+          "date": "2026-08-15T11:45:00",
+          "merchant": "KELAPA SEGAR REGAR",
+          "amount": 14000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1400.0,
+          "period": "Aug 2026"
+        },
+        {
+          "id": "001337838203",
+          "date": "2026-08-15T19:44:00",
+          "merchant": "Nasi Kebuli Ayam Golek",
+          "amount": 42000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1900.0,
+          "period": "Aug 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-14T15:48:10.311087"
+  "last_updated": "2026-08-15T15:17:23.208307"
 }
