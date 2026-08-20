@@ -44,7 +44,8 @@
     "001335002397",
     "001337031292",
     "001337037499",
-    "001337838203"
+    "001337838203",
+    "001343092778"
   ],
   "periods": {
     "Jul 2026": {
@@ -465,7 +466,23 @@
           "period": "Aug 2026"
         }
       ]
+    },
+    "Sep 2026": {
+      "cashback_total": 5100.0,
+      "transaction_count": 1,
+      "total_amount": 51000.0,
+      "transactions": [
+        {
+          "id": "001343092778",
+          "date": "2026-08-19T12:28:00",
+          "merchant": "MAKO LIVING WORLD PEKANBA",
+          "amount": 51000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 5100.0,
+          "period": "Sep 2026"
+        }
+      ]
     }
   },
-  "last_updated": "2026-08-16T15:18:19.679189"
+  "last_updated": "2026-08-20T17:13:43.132197"
 }
