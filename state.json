@@ -45,7 +45,8 @@
     "001337031292",
     "001337037499",
     "001337838203",
-    "001343092778"
+    "001343092778",
+    "001346832697"
   ],
   "periods": {
     "Jul 2026": {
@@ -468,9 +469,9 @@
       ]
     },
     "Sep 2026": {
-      "cashback_total": 5100.0,
-      "transaction_count": 1,
-      "total_amount": 51000.0,
+      "cashback_total": 9600.0,
+      "transaction_count": 2,
+      "total_amount": 96000.0,
       "transactions": [
         {
           "id": "001343092778",
@@ -480,9 +481,18 @@
           "purchase_type": "Purchase with QR",
           "cashback": 5100.0,
           "period": "Sep 2026"
+        },
+        {
+          "id": "001346832697",
+          "date": "2026-08-21T20:02:00",
+          "merchant": "Kantin Gelora Sate",
+          "amount": 45000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 4500.0,
+          "period": "Sep 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-20T17:13:43.132197"
+  "last_updated": "2026-08-21T15:29:25.246928"
 }
