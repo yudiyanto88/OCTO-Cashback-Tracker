@@ -46,7 +46,13 @@
     "001337037499",
     "001337838203",
     "001343092778",
-    "001346832697"
+    "001346832697",
+    "001347688112",
+    "001347698737",
+    "001347704593",
+    "001348327889",
+    "001348342881",
+    "001348343724"
   ],
   "periods": {
     "Jul 2026": {
@@ -469,9 +475,9 @@
       ]
     },
     "Sep 2026": {
-      "cashback_total": 9600.0,
-      "transaction_count": 2,
-      "total_amount": 96000.0,
+      "cashback_total": 27440.0,
+      "transaction_count": 8,
+      "total_amount": 274400.0,
       "transactions": [
         {
           "id": "001343092778",
@@ -490,9 +496,63 @@
           "purchase_type": "Purchase with QR",
           "cashback": 4500.0,
           "period": "Sep 2026"
+        },
+        {
+          "id": "001347688112",
+          "date": "2026-08-22T12:45:00",
+          "merchant": "TORUS JAYA MOTOR",
+          "amount": 65000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 6500.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001347698737",
+          "date": "2026-08-22T12:52:00",
+          "merchant": "RM MINANG RAYA PANGKER",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001347704593",
+          "date": "2026-08-22T13:00:00",
+          "merchant": "KELAPA SEGAR REGAR",
+          "amount": 14000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1400.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001348327889",
+          "date": "2026-08-22T19:44:00",
+          "merchant": "MNDIRI BRU PSR SWL",
+          "amount": 54400.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 5440.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001348342881",
+          "date": "2026-08-22T19:53:00",
+          "merchant": "Batagor Siomay Ikhsan Ban",
+          "amount": 10000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1000.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001348343724",
+          "date": "2026-08-22T19:54:00",
+          "merchant": "Piscok Reni",
+          "amount": 10000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1000.0,
+          "period": "Sep 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-21T15:29:25.246928"
+  "last_updated": "2026-08-22T15:17:21.150274"
 }
