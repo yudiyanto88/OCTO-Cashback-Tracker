@@ -52,7 +52,9 @@
     "001347704593",
     "001348327889",
     "001348342881",
-    "001348343724"
+    "001348343724",
+    "001349193874",
+    "001349200177"
   ],
   "periods": {
     "Jul 2026": {
@@ -475,9 +477,9 @@
       ]
     },
     "Sep 2026": {
-      "cashback_total": 27440.0,
-      "transaction_count": 8,
-      "total_amount": 274400.0,
+      "cashback_total": 35940.0,
+      "transaction_count": 10,
+      "total_amount": 359400.0,
       "transactions": [
         {
           "id": "001343092778",
@@ -550,9 +552,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 1000.0,
           "period": "Sep 2026"
+        },
+        {
+          "id": "001349193874",
+          "date": "2026-08-23T13:18:00",
+          "merchant": "RM INGANTA JUMPA",
+          "amount": 63000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 6300.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001349200177",
+          "date": "2026-08-23T13:22:00",
+          "merchant": "COOLED CITY PKC",
+          "amount": 22000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2200.0,
+          "period": "Sep 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-22T15:17:21.150274"
+  "last_updated": "2026-08-23T15:18:59.862181"
 }
