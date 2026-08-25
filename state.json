@@ -55,7 +55,9 @@
     "001348343724",
     "001349193874",
     "001349200177",
-    "001350135053"
+    "001350135053",
+    "001352468133",
+    "001353315961"
   ],
   "periods": {
     "Jul 2026": {
@@ -478,9 +480,9 @@
       ]
     },
     "Sep 2026": {
-      "cashback_total": 37440.0,
-      "transaction_count": 11,
-      "total_amount": 374400.0,
+      "cashback_total": 49440.0,
+      "transaction_count": 13,
+      "total_amount": 547400.0,
       "transactions": [
         {
           "id": "001343092778",
@@ -580,9 +582,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 1500.0,
           "period": "Sep 2026"
+        },
+        {
+          "id": "001352468133",
+          "date": "2026-08-25T12:25:00",
+          "merchant": "RM PUTIBUANA 2 1",
+          "amount": 153000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 10000,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001353315961",
+          "date": "2026-08-25T20:38:00",
+          "merchant": "SATE MADURA CAK KUMIS",
+          "amount": 20000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2000.0,
+          "period": "Sep 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-24T15:36:00.077508"
+  "last_updated": "2026-08-25T15:39:00.110402"
 }
