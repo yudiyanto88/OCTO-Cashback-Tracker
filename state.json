@@ -57,7 +57,10 @@
     "001349200177",
     "001350135053",
     "001352468133",
-    "001353315961"
+    "001353315961",
+    "001354569168",
+    "001354638114",
+    "001354642977"
   ],
   "periods": {
     "Jul 2026": {
@@ -480,9 +483,9 @@
       ]
     },
     "Sep 2026": {
-      "cashback_total": 49440.0,
-      "transaction_count": 13,
-      "total_amount": 547400.0,
+      "cashback_total": 61440.0,
+      "transaction_count": 16,
+      "total_amount": 667400.0,
       "transactions": [
         {
           "id": "001343092778",
@@ -600,9 +603,36 @@
           "purchase_type": "Purchase with QR",
           "cashback": 2000.0,
           "period": "Sep 2026"
+        },
+        {
+          "id": "001354569168",
+          "date": "2026-08-26T16:42:00",
+          "merchant": "GENRE COFFEE",
+          "amount": 60000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 6000.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001354638114",
+          "date": "2026-08-26T17:24:00",
+          "merchant": "SPBU 14 284 633",
+          "amount": 50000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 5000.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001354642977",
+          "date": "2026-08-26T17:28:00",
+          "merchant": "PISJEN SHANUM",
+          "amount": 10000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1000.0,
+          "period": "Sep 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-25T15:39:00.110402"
+  "last_updated": "2026-08-26T16:15:31.354107"
 }
