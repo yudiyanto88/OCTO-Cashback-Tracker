@@ -60,7 +60,8 @@
     "001353315961",
     "001354569168",
     "001354638114",
-    "001354642977"
+    "001354642977",
+    "001356544496"
   ],
   "periods": {
     "Jul 2026": {
@@ -483,9 +484,9 @@
       ]
     },
     "Sep 2026": {
-      "cashback_total": 61440.0,
-      "transaction_count": 16,
-      "total_amount": 667400.0,
+      "cashback_total": 65440.0,
+      "transaction_count": 17,
+      "total_amount": 707400.0,
       "transactions": [
         {
           "id": "001343092778",
@@ -630,9 +631,18 @@
           "purchase_type": "Purchase with QR",
           "cashback": 1000.0,
           "period": "Sep 2026"
+        },
+        {
+          "id": "001356544496",
+          "date": "2026-08-27T19:34:00",
+          "merchant": "Kebab Bang Bul",
+          "amount": 40000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 4000.0,
+          "period": "Sep 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-26T16:15:31.354107"
+  "last_updated": "2026-08-28T00:13:21.730564"
 }
