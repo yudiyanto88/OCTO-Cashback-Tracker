@@ -62,7 +62,11 @@
     "001354638114",
     "001354642977",
     "001356544496",
-    "001359402708"
+    "001359402708",
+    "001364223241",
+    "001364419063",
+    "001364420234",
+    "001364420811"
   ],
   "periods": {
     "Jul 2026": {
@@ -485,9 +489,9 @@
       ]
     },
     "Sep 2026": {
-      "cashback_total": 72440.0,
-      "transaction_count": 18,
-      "total_amount": 777400.0,
+      "cashback_total": 100000.0,
+      "transaction_count": 22,
+      "total_amount": 1116400.0,
       "transactions": [
         {
           "id": "001343092778",
@@ -650,9 +654,45 @@
           "purchase_type": "Purchase with QR",
           "cashback": 7000.0,
           "period": "Sep 2026"
+        },
+        {
+          "id": "001364223241",
+          "date": "2026-08-31T20:11:00",
+          "merchant": "W.M ROJO LELE PKC",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001364419063",
+          "date": "2026-08-31T21:47:00",
+          "merchant": "medan food",
+          "amount": 100000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 10000.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001364420234",
+          "date": "2026-08-31T21:48:00",
+          "merchant": "medan food",
+          "amount": 100000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 10000.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001364420811",
+          "date": "2026-08-31T21:48:00",
+          "merchant": "medan food",
+          "amount": 114000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 5060.0,
+          "period": "Sep 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-08-30T18:23:33.586581"
+  "last_updated": "2026-08-31T20:38:21.789687"
 }
