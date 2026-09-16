@@ -66,7 +66,9 @@
     "001364223241",
     "001364419063",
     "001364420234",
-    "001364420811"
+    "001364420811",
+    "001392693948",
+    "001392702169"
   ],
   "periods": {
     "Jul 2026": {
@@ -490,8 +492,8 @@
     },
     "Sep 2026": {
       "cashback_total": 100000.0,
-      "transaction_count": 22,
-      "total_amount": 1116400.0,
+      "transaction_count": 24,
+      "total_amount": 1166400.0,
       "transactions": [
         {
           "id": "001343092778",
@@ -690,9 +692,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 5060.0,
           "period": "Sep 2026"
+        },
+        {
+          "id": "001392693948",
+          "date": "2026-09-16T20:05:00",
+          "merchant": "Kebab Bang Bul",
+          "amount": 40000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 0.0,
+          "period": "Sep 2026"
+        },
+        {
+          "id": "001392702169",
+          "date": "2026-09-16T20:10:00",
+          "merchant": "Piscok Reni",
+          "amount": 10000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 0.0,
+          "period": "Sep 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-09-15T18:42:58.389364"
+  "last_updated": "2026-09-16T18:39:03.787287"
 }
