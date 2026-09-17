@@ -68,7 +68,8 @@
     "001364420234",
     "001364420811",
     "001392693948",
-    "001392702169"
+    "001392702169",
+    "001393408515"
   ],
   "periods": {
     "Jul 2026": {
@@ -712,7 +713,23 @@
           "period": "Sep 2026"
         }
       ]
+    },
+    "Oct 2026": {
+      "cashback_total": 7500.0,
+      "transaction_count": 1,
+      "total_amount": 75000.0,
+      "transactions": [
+        {
+          "id": "001393408515",
+          "date": "2026-09-17T11:20:00",
+          "merchant": "Rm Aching 88 medan",
+          "amount": 75000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 7500.0,
+          "period": "Oct 2026"
+        }
+      ]
     }
   },
-  "last_updated": "2026-09-16T18:39:03.787287"
+  "last_updated": "2026-09-17T18:48:05.047927"
 }
