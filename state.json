@@ -69,7 +69,11 @@
     "001364420811",
     "001392693948",
     "001392702169",
-    "001393408515"
+    "001393408515",
+    "001396556418",
+    "001396567498",
+    "001397279587",
+    "001397283493"
   ],
   "periods": {
     "Jul 2026": {
@@ -715,9 +719,9 @@
       ]
     },
     "Oct 2026": {
-      "cashback_total": 7500.0,
-      "transaction_count": 1,
-      "total_amount": 75000.0,
+      "cashback_total": 19800.0,
+      "transaction_count": 5,
+      "total_amount": 198000.0,
       "transactions": [
         {
           "id": "001393408515",
@@ -727,9 +731,45 @@
           "purchase_type": "Purchase with QR",
           "cashback": 7500.0,
           "period": "Oct 2026"
+        },
+        {
+          "id": "001396556418",
+          "date": "2026-09-19T11:51:00",
+          "merchant": "RM MINANG RAYA",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "001396567498",
+          "date": "2026-09-19T11:58:00",
+          "merchant": "KELAPA SEGAR REGAR",
+          "amount": 28000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2800.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "001397279587",
+          "date": "2026-09-19T19:23:00",
+          "merchant": "SPBU 14 284 633",
+          "amount": 45000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 4500.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "001397283493",
+          "date": "2026-09-19T19:25:00",
+          "merchant": "W.M ROJO LELE PKC",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Oct 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-09-18T18:03:13.631830"
+  "last_updated": "2026-09-19T17:44:50.699149"
 }
