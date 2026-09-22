@@ -75,7 +75,9 @@
     "001397279587",
     "001397283493",
     "001399323423",
-    "001400304871"
+    "001400304871",
+    "001400836075",
+    "001401936339"
   ],
   "periods": {
     "Jul 2026": {
@@ -721,9 +723,9 @@
       ]
     },
     "Oct 2026": {
-      "cashback_total": 24800.0,
-      "transaction_count": 7,
-      "total_amount": 248000.0,
+      "cashback_total": 27300.0,
+      "transaction_count": 9,
+      "total_amount": 273000.0,
       "transactions": [
         {
           "id": "001393408515",
@@ -787,9 +789,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 3500.0,
           "period": "Oct 2026"
+        },
+        {
+          "id": "001400836075",
+          "date": "2026-09-22T06:36:00",
+          "merchant": "Kantin Kak Yanti",
+          "amount": 15000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1500.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "001401936339",
+          "date": "2026-09-22T19:52:00",
+          "merchant": "Piscok Reni",
+          "amount": 10000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1000.0,
+          "period": "Oct 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-09-21T19:51:03.322904"
+  "last_updated": "2026-09-22T18:29:14.658192"
 }
