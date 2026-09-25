@@ -79,7 +79,10 @@
     "001400836075",
     "001401936339",
     "001402724324",
-    "001404861798"
+    "001404861798",
+    "001405385885",
+    "001407148106",
+    "001407189723"
   ],
   "periods": {
     "Jul 2026": {
@@ -725,9 +728,9 @@
       ]
     },
     "Oct 2026": {
-      "cashback_total": 29200.0,
-      "transaction_count": 11,
-      "total_amount": 292000.0,
+      "cashback_total": 34000.0,
+      "transaction_count": 14,
+      "total_amount": 340000.0,
       "transactions": [
         {
           "id": "001393408515",
@@ -827,9 +830,36 @@
           "purchase_type": "Purchase with QR",
           "cashback": 1500.0,
           "period": "Oct 2026"
+        },
+        {
+          "id": "001405385885",
+          "date": "2026-09-25T06:32:00",
+          "merchant": "Kantin Kak Yanti",
+          "amount": 15000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1500.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "001407148106",
+          "date": "2026-09-25T19:51:00",
+          "merchant": "PISANGGORENG WIJEN SHANUM",
+          "amount": 5000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 500.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "001407189723",
+          "date": "2026-09-25T20:09:00",
+          "merchant": "KELAPA SEGAR REGAR",
+          "amount": 28000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2800.0,
+          "period": "Oct 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-09-24T18:49:05.997642"
+  "last_updated": "2026-09-25T19:06:53.302630"
 }
