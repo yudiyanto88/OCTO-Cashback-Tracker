@@ -85,7 +85,10 @@
     "001407189723",
     "001407743980",
     "001409291057",
-    "001411769427"
+    "001411769427",
+    "001413649385",
+    "001414104262",
+    "001414204924"
   ],
   "periods": {
     "Jul 2026": {
@@ -731,9 +734,9 @@
       ]
     },
     "Oct 2026": {
-      "cashback_total": 44000.0,
-      "transaction_count": 17,
-      "total_amount": 440000.0,
+      "cashback_total": 58700.0,
+      "transaction_count": 20,
+      "total_amount": 587000.0,
       "transactions": [
         {
           "id": "001393408515",
@@ -887,9 +890,36 @@
           "purchase_type": "Purchase with QR",
           "cashback": 7500.0,
           "period": "Oct 2026"
+        },
+        {
+          "id": "001413649385",
+          "date": "2026-09-29T11:19:00",
+          "merchant": "UBI BAKAR CILEMBU PKC",
+          "amount": 30000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 3000.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "001414104262",
+          "date": "2026-09-29T15:28:00",
+          "merchant": "MAKO LIVING WORLD PEKANBA",
+          "amount": 17000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1700.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "001414204924",
+          "date": "2026-09-29T16:26:00",
+          "merchant": "Fajar Riau Wisata FRW",
+          "amount": 100000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 10000.0,
+          "period": "Oct 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-09-28T21:03:14.594042"
+  "last_updated": "2026-09-29T19:46:24.871380"
 }
