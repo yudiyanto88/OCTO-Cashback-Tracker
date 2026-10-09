@@ -91,7 +91,8 @@
     "001414204924",
     "001428764326",
     "001433050735",
-    "001433069278"
+    "001433069278",
+    "001433874634"
   ],
   "periods": {
     "Jul 2026": {
@@ -737,9 +738,9 @@
       ]
     },
     "Oct 2026": {
-      "cashback_total": 68450.0,
-      "transaction_count": 23,
-      "total_amount": 684500.0,
+      "cashback_total": 78450.0,
+      "transaction_count": 24,
+      "total_amount": 835499.0,
       "transactions": [
         {
           "id": "001393408515",
@@ -947,9 +948,18 @@
           "purchase_type": "Purchase with QR",
           "cashback": 1000.0,
           "period": "Oct 2026"
+        },
+        {
+          "id": "001433874634",
+          "date": "2026-10-09T11:52:00",
+          "merchant": "RF RAMAYANA KERINCI",
+          "amount": 150999.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 10000,
+          "period": "Oct 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-10-08T20:29:48.470772"
+  "last_updated": "2026-10-09T19:59:14.684070"
 }
