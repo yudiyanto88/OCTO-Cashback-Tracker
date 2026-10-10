@@ -92,7 +92,9 @@
     "001428764326",
     "001433050735",
     "001433069278",
-    "001433874634"
+    "001433874634",
+    "000000757553",
+    "000000759199"
   ],
   "periods": {
     "Jul 2026": {
@@ -738,9 +740,9 @@
       ]
     },
     "Oct 2026": {
-      "cashback_total": 78450.0,
-      "transaction_count": 24,
-      "total_amount": 835499.0,
+      "cashback_total": 84750.0,
+      "transaction_count": 26,
+      "total_amount": 898499.0,
       "transactions": [
         {
           "id": "001393408515",
@@ -957,9 +959,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 10000,
           "period": "Oct 2026"
+        },
+        {
+          "id": "000000757553",
+          "date": "2026-10-10T20:32:00",
+          "merchant": "Bastanta Buah",
+          "amount": 38000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 3800.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "000000759199",
+          "date": "2026-10-10T20:33:00",
+          "merchant": "W.M ROJO LELE PKC",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Oct 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-10-09T19:59:14.684070"
+  "last_updated": "2026-10-10T19:06:41.904417"
 }
