@@ -94,7 +94,11 @@
     "001433069278",
     "001433874634",
     "000000757553",
-    "000000759199"
+    "000000759199",
+    "000001273030",
+    "000001280170",
+    "000001286938",
+    "000001700625"
   ],
   "periods": {
     "Jul 2026": {
@@ -740,9 +744,9 @@
       ]
     },
     "Oct 2026": {
-      "cashback_total": 84750.0,
-      "transaction_count": 26,
-      "total_amount": 898499.0,
+      "cashback_total": 98450.0,
+      "transaction_count": 30,
+      "total_amount": 1035499.0,
       "transactions": [
         {
           "id": "001393408515",
@@ -977,9 +981,45 @@
           "purchase_type": "Purchase with QR",
           "cashback": 2500.0,
           "period": "Oct 2026"
+        },
+        {
+          "id": "000001273030",
+          "date": "2026-10-11T12:30:00",
+          "merchant": "UBI BAKAR CILEMBU PKC",
+          "amount": 30000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 3000.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "000001280170",
+          "date": "2026-10-11T12:37:00",
+          "merchant": "RM MINANG RAYA",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 2500.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "000001286938",
+          "date": "2026-10-11T12:44:00",
+          "merchant": "KELAPA SEGAR REGAR",
+          "amount": 14000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1400.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "000001700625",
+          "date": "2026-10-11T19:26:00",
+          "merchant": "Genre coffee",
+          "amount": 68000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 6800.0,
+          "period": "Oct 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-10-10T19:06:41.904417"
+  "last_updated": "2026-10-11T19:19:19.769597"
 }
