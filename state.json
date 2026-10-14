@@ -98,7 +98,9 @@
     "000001273030",
     "000001280170",
     "000001286938",
-    "000001700625"
+    "000001700625",
+    "000003725358",
+    "000004417786"
   ],
   "periods": {
     "Jul 2026": {
@@ -744,9 +746,9 @@
       ]
     },
     "Oct 2026": {
-      "cashback_total": 98450.0,
-      "transaction_count": 30,
-      "total_amount": 1035499.0,
+      "cashback_total": 100000.0,
+      "transaction_count": 32,
+      "total_amount": 1090499.0,
       "transactions": [
         {
           "id": "001393408515",
@@ -1017,9 +1019,27 @@
           "purchase_type": "Purchase with QR",
           "cashback": 6800.0,
           "period": "Oct 2026"
+        },
+        {
+          "id": "000003725358",
+          "date": "2026-10-14T06:33:00",
+          "merchant": "Kantin Kak Yanti",
+          "amount": 30000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 1550.0,
+          "period": "Oct 2026"
+        },
+        {
+          "id": "000004417786",
+          "date": "2026-10-14T20:15:00",
+          "merchant": "PECEL LELE TENDA BIRU AA",
+          "amount": 25000.0,
+          "purchase_type": "Purchase with QR",
+          "cashback": 0.0,
+          "period": "Oct 2026"
         }
       ]
     }
   },
-  "last_updated": "2026-10-13T20:29:36.168698"
+  "last_updated": "2026-10-14T19:09:37.348236"
 }
